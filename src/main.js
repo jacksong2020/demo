@@ -5,7 +5,7 @@ import App from './App.vue'
 
 createApp(App).mount('#app')
 
-import axios from 'axios'
+/* import axios from 'axios'
 // axios全局配置
 axios.defaults.baseURL = 'http://123.207.32.32:8000'
 axios.defaults.timeout = 430
@@ -37,4 +37,4 @@ const instance = axios.create({
 })
 instance({
     url: '/home/multidata',
-}).then(res => console.log(res))
+}).then(res => console.log(res)) */
